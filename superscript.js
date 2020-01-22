@@ -40,8 +40,13 @@ var SUPERSCRIPTS = {
   'w': 'ʷ',
   'x': 'ˣ',
   'y': 'ʸ',
-  'z': 'ᶻ'
+  'z': 'ᶻ',
+  'A': 'ᴬ',
+  'B': 'ᴮ',
+  'C': 'ᶜ'
 }
+
+//ᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾᵠᴿˢᵀᵁⱽᵂˣʸᶻ
 
 function toSuperScript(x) {
   return x.split('').map(function(c) {
